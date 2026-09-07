@@ -3,13 +3,13 @@ fastapi==0.104.1
 uvicorn[standard]==0.24.0
 python-multipart==0.0.6
 
-# Machine Learning - Python 3.14 compatible
-torch>=2.11.0,<2.15.0
-torchvision>=0.16.0,<0.19.0
+# Machine Learning - Latest versions for Python 3.14
+torch>=2.14.0
+torchvision>=0.29.0
 
 # Data Processing
-numpy>=1.24.0,<2.0.0
-Pillow>=9.0.0,<11.0.0
+numpy>=1.24.0
+Pillow>=9.0.0
 
 # Utilities
 python-dotenv==1.0.0
